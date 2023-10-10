@@ -1,0 +1,7 @@
+{
+  "name": "back-buttonish",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
