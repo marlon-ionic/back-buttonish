@@ -1,13 +1,14 @@
 import { TestBed } from '@angular/core/testing';
 
-import { NextGuard } from './next.guard';
+import { homeGuard } from './home.guard';
+import { CanActivateFn } from '@angular/router';
 
-describe('NextGuard', () => {
-  let guard: NextGuard;
+describe('homeGuard', () => {
+  let guard: CanActivateFn;
 
   beforeEach(() => {
     TestBed.configureTestingModule({});
-    guard = TestBed.inject(NextGuard);
+    guard = TestBed.inject(homeGuard);
   });
 
   it('should be created', () => {
